@@ -19,7 +19,11 @@
 */
   
 
-//Code Here
+const user = {
+  username: '',
+  email: '',
+  getUsername: function() {return this.username}
+}
 
 
 
@@ -41,7 +45,7 @@ class Animal {
   }
 }
 
-//Code Here
+const animal1 = new 
 
 
 
