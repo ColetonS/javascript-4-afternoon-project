@@ -117,7 +117,7 @@ class ProgressiveManager extends Manager {
     }
   fire(index) {
     this.reports.splice(index, 1)
-    this.bonus = this.bonus + 100
+    this.bonus += 100
   }
 }
 
